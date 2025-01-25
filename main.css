@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8; 
+}
+
+.navbar {
+    background-color: #6f4f1f;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #6f4f1f; 
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #f2d1b3; 
+}
+
+.section-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+
+.section-contato {
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+}
+
+.paragrafo {
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    color: #333; 
+}
+
+.paragrafo-detalhe {
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.bmw-i {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bmw-x {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bmw-m {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#sobre-a-loja {
+    background-color: #f2d1b3;
+    color: #6f4f1f;
+}
+
+#carros, #detalhes {
+    background-color: #f8f8f8; 
+}
+
+.cor-text {
+    color: #6f4f1f; 
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-carro .nav-link.active {
+    background-color: #6f4f1f; 
+    color: #fff;
+}
+
+.nav-carro .nav-link:hover {
+    color: #4b3621;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato {
+    background-color: #6f4f1f; 
+    color: #fff;
+}
+
+#contato button {
+    background-color: #4b3621;
+    color: #fff;
+}
+
+.error {
+    color: #e74c3c;
+}
