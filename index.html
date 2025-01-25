@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café & Cia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Café & Cia</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-cup me-1"></i>
+                            Sobre o Café
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#detalhes" class="nav-link">
+                            <i class="bi bi-info-circle me-1"></i>
+                            Detalhes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cafes" class="nav-link">
+                            <i class="bi bi-cup-straw me-1"></i>
+                            Nossos Cafés
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-telephone me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="w-100" src="https://cristallepresentes.com.br/wp-content/uploads/2017/07/conheca-os-tipos-de-graos-de-cafe-e-saiba-como-preparalos.jpeg" alt="Café">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXiEjXfSt1PvKXgJPAPcxDu_5xyXlfDdxZQ&s" alt="Café">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWFEyjWdSD87aFsJ9-bZJ2heF0_k89uR7MxQ&s" alt="Café">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSIayMjnlKdx6RNv5fhoF2-G7wILTZcFr1bw&s" class="d-block w-100 rounded" alt="Interior Café">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="section-title">Café & Cia</h2>
+                        <p class="paragrafo">
+                            Em nossa loja, você encontra os melhores cafés especiais, cultivados com carinho e dedicação para proporcionar uma experiência única. Estamos localizados no coração da cidade e oferecemos uma variedade de grãos selecionados para você saborear no nosso ambiente acolhedor.
+                        </p>
+                        <h3 class="section-title">Nossa História</h3>
+                        <p class="paragrafo">
+                            A história do Café & Cia começa com uma paixão por café de qualidade. Fundada por baristas experientes e apaixonados pela arte de fazer café, nossa loja oferece aos clientes uma experiência que vai além do simples consumo de café.
+                        </p>
+                        <ul>
+                            <li class="fw-bold">Café Espresso</li>
+                            <li class="fw-bold">Café com Leite</li>
+                            <li class="fw-bold">Cappuccino</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="detalhes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Detalhes do Café</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDE1kURejbNSyOcEz_8Guq6b1oJgJ2UCJsQ&s" class="d-block w-100 rounded mb-2" alt="Grãos de Café">
+                        <h3 class="section-title fs-4">Grãos de Café</h3>
+                        <p class="paragrafo-detalhe">
+                            Selecionamos os melhores grãos de café para garantir uma bebida rica em sabor e aroma. Nosso café vem de diversas regiões produtoras, com destaque para os cafés arábica e robusta.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0C4Kb_cCmhAQi0M5eijVzILZaAZArfmxRJw&s" class="d-block w-100 rounded mb-2" alt="Preparação do Café">
+                        <h3 class="section-title fs-4">Preparação</h3>
+                        <p class="paragrafo-detalhe">
+                            A preparação de um bom café é uma arte. Nossos baristas são especialistas em diversas técnicas, garantindo uma bebida perfeita para você aproveitar a qualquer hora do dia.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6RcfgfpV1S-sf3fbe61pxNOpi82qZp0T2oQ&s" class="d-block w-100 rounded mb-2" alt="Cliente Saboreando Café">
+                        <h3 class="section-title fs-4">Momentos Especiais</h3>
+                        <p class="paragrafo-detalhe">
+                            No Café & Cia, o ambiente acolhedor é ideal para aqueles momentos de relaxamento. Venha saborear seu café preferido com os amigos ou sozinho, em um espaço que mistura conforto e prazer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cafes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos Cafés</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cafe">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#espresso" class="fw-bold text-start nav-link cor-text active">Espresso</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cappuccino" class="fw-bold text-start nav-link cor-text">Cappuccino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#latte" class="fw-bold text-start nav-link cor-text">Café com Leite</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mocha" class="fw-bold text-start nav-link cor-text">Mocha</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="espresso">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://cdn.sistemawbuy.com.br/arquivos/f101ef5b9be464a6c8854310ae5f5327/produtos/65bb164199b0d/5fc4fca2a8cea2deb2743064358f7bee-65bb21d8524e1.jpg">
+                                        <h5 class="section-title fw-bold mt-2">Café Espresso</h5>
+                                        <p>
+                                            Intenso e encorpado, o café espresso é perfeito para quem busca uma experiência robusta e de sabor marcante.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UJJ9y-ryv3twJr-MRbHORLhRbdZ1ZnC5FQ&s">
+                                        <h5 class="section-title fw-bold mt-2">Espresso com Leite</h5>
+                                        <p>
+                                            A combinação do espresso com leite quente traz uma bebida suave e cremosa, ideal para quem busca algo mais delicado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cappuccino">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://www.netcoffee.com.br/upload/produto/imagem/379be26b4025349d6252c1f7ec379eb0.webp">
+                                        <h5 class="section-title fw-bold mt-2">Cappuccino</h5>
+                                        <p>
+                                            Cremoso e suave, o cappuccino é a combinação perfeita entre café espresso, leite vaporizado e uma camada de espuma leve.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://www.netcoffee.com.br/upload/produto/imagem/872ae5297438050773305158df0fc9a7.webp">
+                                        <h5 class="section-title fw-bold mt-2">Cappuccino Gelado</h5>
+                                        <p>
+                                            Para os dias mais quentes, nosso cappuccino gelado traz o mesmo sabor suave e a refrescância que você procura.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="latte">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://cloudfront-us-east-1.images.arcpublishing.com/newr7/WXHSLJM2XZNVDLP7OTLDNMYNVM.jpg">
+                                        <h5 class="section-title fw-bold mt-2">Café com Leite</h5>
+                                        <p>
+                                            Um clássico! Café expresso combinado com leite quente, criando uma bebida suave e reconfortante para todos os momentos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://baggiocafe.com.br/cdn/shop/articles/Cafe_gelado_1.png?v=1712149644&width=600">
+                                        <h5 class="section-title fw-bold mt-2">Café Latte Gelado</h5>
+                                        <p>
+                                            A versão gelada do nosso café latte, perfeita para os dias mais quentes. Uma mistura delicada entre café e leite gelado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mocha">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://www.thespruceeats.com/thmb/Hz677yfVdPECquUOekjv0b9yXTE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-mocha-4797918-step-04-599987714aec41aba02f1f870e900dd8.jpg">
+                                        <h5 class="section-title fw-bold mt-2">Mocha</h5>
+                                        <p>
+                                            Uma deliciosa mistura de café espresso, chocolate e leite, criando uma bebida doce e rica em sabor. Ideal para quem ama chocolate.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSCoeRnz81ZxkGO43-c9QLVwyy5_Yvhc39og&s">
+                                        <h5 class="section-title fw-bold mt-2">Mocha Gelado</h5>
+                                        <p>
+                                            Uma versão gelada do mocha, trazendo o mesmo sabor doce de chocolate, com a refrescância ideal para os dias quentes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</section>
+<section id="contato" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-contato mb-5">Contato</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-7 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold section-contato">Seu nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold section-contato">Seu email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="email@exemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label fw-bold section-contato">Seu telefone (Opcional)</label>
+                        <input type="tel" id="telefone" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark section-contato fw-bold">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <h3 class="section-contato fs-4">Redes Sociais</h3>
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="https://www.instagram.com/cafeecia">
+                                <i class="bi bi-facebook section-contato"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="https://www.instagram.com/cafeecia">
+                                <i class="bi bi-instagram section-contato"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="https://github.com/vejotaq">
+                                <i class="bi bi-github section-contato"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <h3 class="section-contato fs-4">Endereço</h3>
+                    <p class="section-contato">
+                        Rua Café & Cia, n°123, Bairro Centro - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-2 pt-5">
+        <p class="section-contato">&copy; 2024 Café & Cia. Todos os direitos reservados.</p>
+    </footer>
+</section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+</html>
